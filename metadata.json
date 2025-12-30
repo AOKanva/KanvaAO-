@@ -1,0 +1,8 @@
+{
+  "name": "Kanva.ao",
+  "description": "Uma plataforma criativa privada para organizar ideias, tarefas e projetos com o auxílio de IA.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
