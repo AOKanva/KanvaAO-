@@ -4,7 +4,7 @@
  * Utiliza o modelo de ponta briaai/RMBG-1.4
  */
 
-const HF_TOKEN = process.env.HF_TOKEN || ""; // Reutiliza o token do Hugging Face
+const HF_TOKEN = import.meta.env.VITE_HF_TOKEN || ""; // Reutiliza o token do Hugging Face
 const MODEL_ID = "briaai/RMBG-1.4";
 
 export const removeBackground = async (base64Image: string): Promise<string> => {
