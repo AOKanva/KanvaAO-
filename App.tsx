@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { AppState, KanvaCard, KanvaDesign, UserRole } from './types';
+import { KanvaCard, KanvaDesign, UserRole } from './types';
 import Login from './components/Login';
 import Sidebar from './components/Sidebar';
 import UserDashboard from './components/UserDashboard';
